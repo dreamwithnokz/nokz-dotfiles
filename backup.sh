@@ -1,16 +1,16 @@
 # Files to upload
 dotfiles=(
-	~/.tmux.conf
-	~/.Xmodmap
-	~/.Xresources
-	~/.zshrc
-	~/.i3/
-	~/.config/compton.conf
+  ~/.tmux.conf
+  ~/.Xmodmap
+  ~/.Xresources
+  ~/.zshrc
+  ~/.i3/
+  ~/.config/compton.conf
   ~/.config/kritarc
   ~/.config/kritashortcutsrc
-	~/.config/rofi
-	~/.config/nvim/init.vim
-	~/.config/termite/config
+  ~/.config/rofi
+  ~/.config/nvim/init.vim
+  ~/.config/termite/config
   ~/.i3status.conf
 )
 
