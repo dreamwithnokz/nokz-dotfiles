@@ -83,8 +83,6 @@ Plug 'ervandew/supertab'
 " Prevent putting in or cancelling when asked to input password:
 " This may cause you to not be able to enter your password for awhile
 Plug 'lambdalisue/suda.vim'
-" Edits 2nd html tag automatically
-Plug 'andrewradev/tagalong.vim'
 " Intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-json', 'coc-prettier', 'coc-tabnine', 'coc-java']
