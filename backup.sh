@@ -1,5 +1,6 @@
 # Files to upload
 dotfiles=(
+  ~/.profile
   ~/.tmux.conf
   ~/.Xmodmap
   ~/.Xresources
