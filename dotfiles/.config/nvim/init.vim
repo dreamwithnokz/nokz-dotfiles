@@ -16,6 +16,11 @@ set noshowmode
 " Update Gitgutter at ms seconds
 set updatetime=100
 
+au VimEnter,VimResume * set guicursor=n-v:block,i:ver25,r:hor20,o:hor50
+  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+
+au VimLeave,VimSuspend * set guicursor=a:ver100
+
 " Toggle between relative and non-relative number on insert/normal mode
 augroup numbertoggle
   autocmd!
