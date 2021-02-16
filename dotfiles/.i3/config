@@ -181,6 +181,7 @@ mode "resize" {
 bindsym $mod+0 exec --no-startup-id blurlock
 
 # Autostart applications/Startup
+exec --no-startup-id fcitx -d
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
 exec --no-startup-id nm-applet
