@@ -11,6 +11,7 @@ dotfiles=(
   ~/.config/kritarc
   ~/.config/kritashortcutsrc
   ~/.config/rofi
+  ~/.config/nvim/coc-settings.json
   ~/.config/nvim/init.vim
   ~/.config/termite/config
   ~/.config/pcmanfm/default/pcmanfm.conf
@@ -43,6 +44,7 @@ mv ./rofi ./.config -v
 
 # Configs with subdirectories inside config
 mv ./init.vim ./.config/nvim -v
+mv ./coc-settings.json ./.config/nvim -v
 mv ./config ./.config/termite -v
 mv ./pcmanfm.conf ./.config/pcmanfm/default -v
 
