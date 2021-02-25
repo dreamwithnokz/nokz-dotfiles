@@ -99,7 +99,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 " LANGUAGE SPECIFIC
 Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-json', 'coc-prettier', 'coc-tabnine', 'coc-java', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-json', 'coc-prettier', 'coc-tabnine', 'coc-java', 'coc-tsserver', 'coc-eslint']
 
 call plug#end()
 
