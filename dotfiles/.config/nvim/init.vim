@@ -82,7 +82,6 @@ Plug 'ervandew/supertab'
 Plug 'raimondi/delimitmate'
 " Comments by using 'gcc' or 'gc
 Plug 'tpope/vim-commentary'
-Plug 'unblevable/quick-scope'
 
 " COLORS
 " Theme
