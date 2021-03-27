@@ -1,4 +1,4 @@
-" General Settings
+" general settings
 filetype plugin on
 syntax on
 set nocompatible
