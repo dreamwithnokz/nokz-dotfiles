@@ -1,4 +1,4 @@
-# i3 config file (v4) - http://i3wm.org/docs/userguide.html
+# i3 config file (v4) - http://i3wm.org/docs/userguide.htmlcmanfor_window [class="Standard Notes"] floating enable, move to scratchpad
 
 # Mod1=<Alt> Mod4=<Super>
 set $mod Mod1
@@ -32,8 +32,7 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 # Start Applications
-bindsym $mod+F3 [class="Pcmanfm"] scratchpad show
-bindsym $mod+F4 [class="Standard Notes"] scratchpad show
+bindsym $mod+e [class="Pcmanfm"] scratchpad show
 bindsym $mod+grave exec termite
 bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b
@@ -65,8 +64,7 @@ bindsym $mod+q split toggle exec notify-send "Toggled Split"
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+bindsym $mod+w layout toggle tabbed split
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -151,7 +149,6 @@ for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 for_window [class="Keybase"] floating enable border normal
-for_window [class="Standard Notes"] floating enable, move to scratchpad
 for_window [class="Pcmanfm"] floating enable, move to scratchpad
 
 # switch to workspace with urgent window automatically
@@ -196,7 +193,6 @@ exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id /home/dreamwithnokz/.config/compton.conf -b
 exec --no-startup-id pcmanfm
-exec --no-startup-id standardnotes-desktop
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
