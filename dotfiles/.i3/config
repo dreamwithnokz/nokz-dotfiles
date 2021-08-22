@@ -33,7 +33,7 @@ bindsym $mod+minus scratchpad show
 
 # Start Applications
 bindsym $mod+e [class="Pcmanfm"] scratchpad show
-bindsym $mod+grave exec termite
+bindsym $mod+grave exec alacritty
 bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b
 bindsym Print exec flameshot gui
@@ -119,7 +119,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces
 assign [class="firefox"] $ws1
-assign [class="Termite"] $ws2
+assign [class="Alacritty"] $ws2
 
 # Open specific applications in floating mode
 for_window [class="calamares"] floating enable border normal
@@ -187,7 +187,7 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id flameshot
 exec --no-startup-id redshift
 exec --no-startup-id firefox
-exec --no-startup-id termite
+exec --no-startup-id alacritty
 exec --no-startup-id pcloud
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
