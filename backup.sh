@@ -5,6 +5,7 @@ dotfiles=(
   ~/.Xmodmap
   ~/.Xresources
   ~/.zshrc
+  ~/.alacritty.yml
   ~/.i3/
   ~/.i3status.conf
   ~/.config/compton.conf
