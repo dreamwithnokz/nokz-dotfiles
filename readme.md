@@ -12,6 +12,10 @@ Step-by-step setup for new Manjaro i3wm
 7. `sudo pacman -S compton`
 8. `sudo pacman -S nitrogen`
 
+## Set correct time and date
+
+`sudo ntpd -qg`
+
 ## Setup i3wm initially
 
 1. Copy and Paste `.i3/config`
@@ -50,11 +54,11 @@ Step-by-step setup for new Manjaro i3wm
 
 ## Set default apps
 
-1. Copy `.profile`
+Copy `.profile`
 
 ## Set config for pcmanfm
 
-1. Copy `.pcmanfm.conf`
+Copy `.pcmanfm.conf`
 
 ## Setup Neovim
 
