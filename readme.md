@@ -1,4 +1,5 @@
-# Personal Dotfiles (Step-by-step setup for new Manjaro i3wm)
+# Personal Dotfiles 
+Step-by-step setup for new Manjaro i3wm
 
 ## Prerequisites
 
@@ -45,7 +46,7 @@
 1. sudo pacman -S rofi
 2. sudo pacman -S rofi-calc
 3. Setup [rofi themes](https://github.com/adi1090x/rofi)
-*. Change in `.i3/config` if you want to change the style.
+4. Change in `.i3/config` if you want to change the style.
 
 ## Set default apps
 
@@ -59,4 +60,4 @@
 
 ## Bloats to Uninstall 
 
-sudo pacman -Rss clipit
+`sudo pacman -Rss clipit`
