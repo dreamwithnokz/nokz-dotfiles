@@ -14,7 +14,9 @@ Step-by-step setup for new Manjaro i3wm
 
 ## Set correct time and date
 
-`sudo ntpd -qg`
+1. `sudo ntpd -qg`
+2. `sudo pacman -S ntp`
+3. `sudo timedatectl set-ntp true`
 
 ## Setup i3wm initially
 
