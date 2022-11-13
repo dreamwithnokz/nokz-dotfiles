@@ -1,5 +1,5 @@
-# Personal Dotfiles 
-Step-by-step setup for new Manjaro i3wm
+# Nokz Dotfiles 
+Step-by-step setup for new Manjaro i3wm installation.
 
 ## Prerequisites
 
