@@ -123,3 +123,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ## Bloats to Uninstall
 
 `sudo pacman -Rss clipit`
+
+## References:
+
+https://wiki.archlinux.org/title/General_recommendations
