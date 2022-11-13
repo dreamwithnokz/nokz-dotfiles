@@ -8,8 +8,6 @@ dotfiles=(
   ~/.alacritty.yml
   ~/.i3status.conf
   ~/.config/compton.conf
-  ~/.config/kritarc
-  ~/.config/kritashortcutsrc
   ~/.config/rofi
   ~/.config/nvim/coc-settings.json
   ~/.config/nvim/init.vim
@@ -35,8 +33,6 @@ rm -rf ./.config/pcmanfm/* -v
 mkdir ./.config/pcmanfm/default -v
 
 mv ./compton.conf ./.config -v
-mv ./kritarc ./.config -v
-mv ./kritashortcutsrc ./.config -v
 mv ./rofi ./.config -v
 
 # Configs with subdirectories inside config
