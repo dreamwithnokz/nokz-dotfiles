@@ -120,6 +120,12 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 4. `fc-cache -f -v` to regenerate font cache.
 5. Restart browser.
 
+## Fix sounds
+
+1. `sudo pacman -S alsa-utils pulseaudio`
+2. `sudo pacman -S pa-applet`
+3. reboot
+
 ## Bloats to Uninstall
 
 `sudo pacman -Rss clipit`
