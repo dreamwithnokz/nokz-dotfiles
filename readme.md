@@ -26,16 +26,16 @@ Step-by-step setup for new Manjaro i3wm
 
 ## Swap Caps lock and Left ctrl key
 
-1. `xmodmap -pke > ~/.Xmodmap` // Generates .Xmodmap file
+1. `xmodmap -pke > ~/.Xmodmap` Generates .Xmodmap file
 2. Copy and paste `.Xmodmap` dotfile from this repo.
 
 ## Setup Tmux
 
 1. `sudo pacman -S tmux`
-2. Clone [TPM](https://github.com/zsh-users/zsh-history-substring-search) // Just need the tpm folder to exist
-3. Copy `.tmux.conf` from this repo. // Create your own file if it doesn't exists
+2. Clone [TPM](https://github.com/zsh-users/zsh-history-substring-search) Just need the tpm folder to exist
+3. Copy `.tmux.conf` from this repo. Create your own file if it doesn't exists
 4. Quit and open tmux again, or source the newly created `.tmux.conf`.
-5. `prefix(ctrl+b)+I` // install plugins
+5. `prefix(ctrl+b)+I` Install plugins
 
 ## Setup Terminal
 
@@ -63,6 +63,47 @@ Copy `.profile`
 Copy `.pcmanfm.conf`
 
 ## Setup Neovim
+
+## Setup color emoji
+
+1. `sudo pacman -S noto-fonts-emoji`
+2. `sudo nvim /etc/fonts/local.conf`
+3. C/P the following:
+```
+<?xml version='1.0'?>
+<!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
+<fontconfig>
+ <alias>
+  <family>sans-serif</family>
+  <prefer>
+   <family>Noto Sans</family>
+   <family>Noto Color Emoji</family>
+   <family>Noto Emoji</family>
+   <family>DejaVu Sans</family>
+  </prefer>
+ </alias>
+ <alias>
+  <family>serif</family>
+  <prefer>
+   <family>Noto Serif</family>
+   <family>Noto Color Emoji</family>
+   <family>Noto Emoji</family>
+   <family>DejaVu Serif</family>
+  </prefer>
+ </alias>
+ <alias>
+  <family>monospace</family>
+  <prefer>
+   <family>Noto Mono</family>
+   <family>Noto Color Emoji</family>
+   <family>Noto Emoji</family>
+  </prefer>
+ </alias>
+ <dir>/usr/local/share/fonts</dir>
+</fontconfig>
+```
+4. `fc-cache -f -v` to regenerate font cache.
+5. Restart browser.
 
 ## Bloats to Uninstall 
 
