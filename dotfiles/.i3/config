@@ -19,7 +19,8 @@ font xft:URWGothic-Book 9
 bindsym $mod+d kill
 
 # start program launcher
-bindsym $mod+space exec --no-startup-id "rofi -show drun -modi drun,calc,run,ssh"
+# bindsym $mod+space exec --no-startup-id "rofi -show drun -modi drun,calc,ssh"
+bindsym $mod+space exec --no-startup-id "~/.config/rofi/launchers/type-5/launcher.sh"
 
 # Sound section
 exec --no-startup-id pa-applet
@@ -186,12 +187,11 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id flameshot
 exec --no-startup-id redshift
-exec --no-startup-id firefox
+exec --no-startup-id google-chrome-stable
 exec --no-startup-id alacritty
-exec --no-startup-id pcloud
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-exec_always --no-startup-id /home/dreamwithnokz/.config/compton.conf -b
+exec_always --no-startup-id /home/nokz/.config/compton.conf -b
 exec --no-startup-id pcmanfm
 
 # Color palette used for the terminal ( ~/.Xresources file )

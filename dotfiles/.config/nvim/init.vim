@@ -103,3 +103,4 @@ let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-json', 'coc-prettier'
 call plug#end()
 
 colorscheme minimalist
+

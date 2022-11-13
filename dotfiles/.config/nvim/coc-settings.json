@@ -1,6 +1,0 @@
-{
-  "prettier.formatterPriority": -1,
-  "prettier.eslintIntegration": true,
-  "prettier.trailingComma": "all",
-  "prettier.singleQuote": true
-}
