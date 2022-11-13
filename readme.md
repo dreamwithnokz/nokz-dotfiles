@@ -55,8 +55,8 @@ git config --global interactive.diffFilter "diff-so-fancy --patch"
 
 ## App Runner (mod+space)
 
-1. sudo pacman -S rofi
-2. sudo pacman -S rofi-calc
+1. `sudo pacman -S rofi`
+2. `sudo pacman -S rofi-calc`
 3. Setup [rofi themes](https://github.com/adi1090x/rofi)
 4. Change in `.i3/config` if you want to change the style.
 
