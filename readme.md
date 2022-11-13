@@ -76,7 +76,8 @@ Copy `.pcmanfm.conf`
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
-4. `:PlugInstall`
+4. Copy vim config files from this repo.
+5. `:PlugInstall`
 
 ## Setup color emoji
 
