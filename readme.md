@@ -1,4 +1,4 @@
-# Nokz Dotfiles 
+# Nokz Dotfiles
 Step-by-step setup for new Manjaro i3wm installation.
 
 ## Prerequisites
@@ -69,6 +69,14 @@ Copy `.profile`
 Copy `.pcmanfm.conf`
 
 ## Setup Neovim
+1. Install fzf
+2. Install node
+3. Install [vim-plug](https://github.com/junegunn/vim-plug#neovim):
+```
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+4. `:PlugInstall`
 
 ## Setup color emoji
 
@@ -111,6 +119,6 @@ Copy `.pcmanfm.conf`
 4. `fc-cache -f -v` to regenerate font cache.
 5. Restart browser.
 
-## Bloats to Uninstall 
+## Bloats to Uninstall
 
 `sudo pacman -Rss clipit`
