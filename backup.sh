@@ -5,6 +5,7 @@ dotfiles=(
   ~/.Xmodmap
   ~/.zshrc
   ~/.i3/
+  ~/.alacritty.yml
   ~/.i3status.conf
   ~/.config/compton.conf
   ~/.config/kritarc
