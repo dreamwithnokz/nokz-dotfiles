@@ -46,6 +46,12 @@ Step-by-step setup for new Manjaro i3wm installation.
 4. Setup [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 5. Setup [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
 6. Copy and paste `.zshrc`
+7. Install [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy#install)
+8. Execute commands:
+```
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+git config --global interactive.diffFilter "diff-so-fancy --patch"
+```
 
 ## App Runner (mod+space)
 
