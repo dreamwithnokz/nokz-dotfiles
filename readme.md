@@ -11,6 +11,7 @@ Step-by-step setup for new Manjaro i3wm installation.
 6. `sudo pacman -S flameshot`
 7. `sudo pacman -S compton`
 8. `sudo pacman -S nitrogen`
+9. `sudo pacman -S noto-fonts-cjk`
 
 ## Set correct time and date
 
