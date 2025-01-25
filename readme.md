@@ -1,3 +1,5 @@
+> This project is no longer being maintained
+
 # Nokz Dotfiles
 Step-by-step setup for new Manjaro i3wm installation.
 
